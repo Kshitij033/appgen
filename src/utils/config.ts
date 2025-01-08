@@ -1,1 +1,1 @@
-export const ROOT_URL = "https://appgen.groqlabs.com";
+export const ROOT_URL = "https://appgen-two.vercel.app/";

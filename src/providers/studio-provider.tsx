@@ -67,7 +67,7 @@ const [StudioProvider, useStudio] = providerFactory(() => {
 			});
 
 			if (!response.ok) {
-				throw new Error("Failed to generate HTML");
+				throw new Error("Failed to generate HTML, Tokens Finished");
 			}
 
 			const result = await response.json();
